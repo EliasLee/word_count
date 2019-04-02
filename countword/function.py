@@ -25,3 +25,7 @@ def count(request):
                    'dict':word_dict,'sorted':sorted_dict})
 
 
+def about(request):
+    return render(request, 'about.html')
+
+
